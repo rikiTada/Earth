@@ -28,7 +28,7 @@ function init() {
   renderer.render(scene, camera);
 
   // テクスチャを追加
-  let textures = new THREE.TextureLoader().load("./textures/earth.jpg");
+  let textures = new THREE.TextureLoader().load("./earth.jpg");
 
   // ジオメトリを作成
   let ballGeometry = new THREE.SphereGeometry(100, 64, 32);
